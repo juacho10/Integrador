@@ -80,7 +80,7 @@ p{
 .column {
     flex: 1;
     padding: 10px;
-    background-color: #d1f1bf99;
+    background-color: #a8eae399;
     padding: 10px;
     margin: 50px 0;
 }
@@ -105,7 +105,13 @@ form input {
 }
 form button  { 
     font-size: 18px;
-    background-color: #22ce3088;
+    background-color: #8eef8ee1;
     color:#5d0506
-
     } 
+    #result {
+        text-align: center; /* Centra el mensaje */
+        font-weight: bold;  /* Hace el texto más grueso */
+        margin-top: 10px;   /* Espacio superior para separar del formulario */
+        font-size: 1.1em;   /* Aumenta un poco el tamaño del texto */
+    }
+    
