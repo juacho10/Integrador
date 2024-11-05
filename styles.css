@@ -1,0 +1,117 @@
+/* Imagen de fondo que cubre toda la pantalla y no se mueve */
+body {
+    background-image: url('img/fondo.png'); /* Ruta de tu imagen de fondo */
+    background-size:cover ; /* La imagen cubre toda la pantalla */
+    background-position: center; /* La imagen se centra */
+    background-attachment: fixed; /* Fija la imagen para que no se mueva */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el footer */
+footer {
+    position:fixed; /* El footer se queda fijo en la parte inferior */
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semitransparente */
+    color: white; /* Texto en blanco */
+    text-align: center;
+    padding: 5px 0;
+}
+
+.contact-info p {
+    margin: 5px 0; /* Márgenes pequeños entre los párrafos */
+}
+
+/* Menú de navegación */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+  
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #02034b;
+    font-size:30px;
+    font-weight: bold;
+    
+    
+}
+.menu li a:hover {
+    color:#b30080  
+}
+
+/* Carrusel */
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 55px 0;
+}
+
+.carousel img {
+    width: 500px;
+    height: 400px;
+}
+.carousel button {
+    font-size:20px ;
+    background-color: #0b7f85a3;   
+}
+button:hover{
+    color:#d4080b ;  
+
+}
+
+/* Artículo */
+.articulo {
+    display: flex;
+    gap: 10px;        
+}
+p{
+    font-size: 18px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    background-color: #a8eae399;
+    padding: 10px;
+    margin: 50px 0;
+}
+.column:hover {
+    color:#3909ab
+}
+
+/* Contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+form button  { 
+    font-size: 18px;
+    background-color: #8eef8ee1;
+    color:#5d0506
+    } 
+    #result {
+        text-align: center; /* Centra el mensaje */
+        font-weight: bold;  /* Hace el texto más grueso */
+        margin-top: 10px;   /* Espacio superior para separar del formulario */
+        font-size: 1.1em;   /* Aumenta un poco el tamaño del texto */
+    }
+    
